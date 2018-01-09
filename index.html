@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ryan Ching</title>
+
+    <!-- Bootstrap core CSS -->
+
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div id="about" class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">Ryan Ching</h1>
+              <p class="intro-text">(Aspiring) Software Engineer</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" style="background-color:gray;  display: inline-block; ">
+
+      <h1 class="text-center" style="padding-top:30px;">Here are some things I've made: </h1>
+      <h3 class="text-center">(Click to see more)</h3>
+      <div style="width:95%; margin:auto; margin-bottom:40px; margin-top:10px; border: 3px solid; border-radius:20px; padding:5px">
+        <span style="margin-left:10%">
+          <button id="ybbutton" class="btn btn-default active" onclick="setYellowBrickImages()">Yellow Brick</button>
+        </span>
+        <span style="margin-left:10%">
+          <button id="ecbutton" class="btn-default" onclick="setEmotionClassifyImages()">Emotion Classify</button>
+        </span>
+        <span style="margin-left:10%">
+          <button id="plbutton" class="btn-default" onclick="setPlacesImages()">Places</button>
+        </span>
+        <span style="margin-left:10%">
+          <button id="cqbutton" class="btn-default" onclick="setCityQuizImages()">City Quiz</button>
+        </span>
+        <span style="margin-left:10%">
+          <button id="inbutton" class="btn-default" onclick="setInvasionImages()">Invasion</button>
+        </span>
+      </div>
+      <div style="width:50%; float:left; display: inline-block; margin-bottom:50px" class="text-center">
+          <h2 id="descriptiontitle" style="width:80%; margin-left:10%">Yellow Brick</h3>
+          <h4 style="width:80%; margin-left:10%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+      </div>
+
+      <div style="width:50%; float:right; display: inline-block; margin-bottom:50px">
+
+          <div id="imagecarousel" class="carousel slide" data-ride="carousel" style="width:40%; margin: auto">
+            <!-- Indicators -->
+
+            <ul class="carousel-indicators">
+              <li data-target="#imagecarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#imagecarousel" data-slide-to="1"></li>
+              <li data-target="#imagecarousel" data-slide-to="2"></li>
+              <li data-target="#imagecarousel" data-slide-to="3"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="img1" src="img/appStore.png" alt="First Image" width="100%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img id="img2" src="img/map.png" alt="Second Image" width="100%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img id="img3" src="img/modal.png" alt="Third Image" width="100%" height="100%">
+              </div>
+              <div class="carousel-item">
+                <img id="img4" src="img/businessProfile.png" alt="Fourth Image" width="100%" height="100%">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#imagecarousel" data-slide="prev" style="opacity:1">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#imagecarousel" data-slide="next" style="opacity:1">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div>
+      </div>
+
+
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="download-section content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>My Skills: </h2>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>Link to my resume (pdf): </h2>
+
+          <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="download-section content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact Me</h2>
+            <p>Feel free to leave us a comment on the
+              <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
+              on Start Bootstrap to give some feedback about this theme!</p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                  <i class="fa fa-google-plus fa-fw"></i>
+                  <span class="network-name">Google+</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+
+  </body>
+
+</html>
