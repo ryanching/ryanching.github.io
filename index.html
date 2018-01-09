@@ -31,7 +31,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color:black; opacity:.6">
       <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -79,7 +79,7 @@
     <section id="portfolio" style="background-color:gray;  display: inline-block; ">
 
       <h1 class="text-center" style="padding-top:30px;">Here are some things I've made: </h1>
-      <h3 class="text-center">(Click to see more)</h3>
+      <h3 class="text-center">(Click buttons below to see more about the project)</h3>
       <div style="width:95%; margin:auto; margin-bottom:40px; margin-top:10px; border: 3px solid; border-radius:20px; padding:5px">
         <span style="margin-left:10%">
           <button id="ybbutton" class="btn btn-default active" onclick="setYellowBrickImages()">Yellow Brick</button>
@@ -97,12 +97,12 @@
           <button id="inbutton" class="btn-default" onclick="setInvasionImages()">Invasion</button>
         </span>
       </div>
-      <div style="width:50%; float:left; display: inline-block; margin-bottom:50px" class="text-center">
-          <h2 id="descriptiontitle" style="width:80%; margin-left:10%">Yellow Brick</h3>
-          <h4 style="width:80%; margin-left:10%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+      <div style="width:50%; float:left; display: inline-block; margin-bottom:50px;" class="text-center">
+          <h2 id="descriptiontitle" style="width:80%; margin-left:10%;">Yellow Brick</h3>
+          <h4 style="width:80%; margin-left:10%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
       </div>
 
-      <div style="width:50%; float:right; display: inline-block; margin-bottom:50px">
+      <div style="width:50%; float:right; display: inline-block; margin-bottom:50px; border-left: solid 2px black">
 
           <div id="imagecarousel" class="carousel slide" data-ride="carousel" style="width:40%; margin: auto">
             <!-- Indicators -->
@@ -148,11 +148,37 @@
 
     <!-- Skills Section -->
     <section id="skills" class="download-section content-section text-center">
-      <div class="container">
-        <div class="row">
+      <div >
+        <div class="row" style="width:100%">
           <div class="col-lg-8 mx-auto">
-            <h2>My Skills: </h2>
+            <h1 style="margin-top: -100px;">My Skills: </h1>
+            <div style="width:50%; float:left;  display: inline-block; ">
 
+              <ul style="list-style: none; font-size:23px">
+                <li><h3 style="text-decoration: underline">Languages</h3></li>
+                <li>Java</li>
+                <li>C</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>Matlab</li>
+                <li>Swift</li>
+              </ul>
+            </div>
+            <div style="width:50%; float:right; display: inline-block;">
+                <ul style="list-style: none; font-size:23px">
+                  <li><h4 style="text-decoration: underline">Tools And Frameworks</h4></li>
+                  <li>AngularJS</li>
+                  <li>React/React Native</li>
+                  <li>Bootstrap</li>
+                  <li>Git/Github</li>
+                  <li>D3.JS</li>
+                  <li>Xcode</li>
+                  <li>Android Studio</li>
+                  <li>Hadoop</li>
+                </ul>
+            </div>
 
           </div>
         </div>
@@ -166,7 +192,7 @@
     <section id="resume" class="content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-          <h2>Link to my resume (pdf): </h2>
+          <h2 style="margin-top: -100px;">Link to my resume (pdf): </h2>
 
           <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Resume</a>
         </div>

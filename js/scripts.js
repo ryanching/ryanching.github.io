@@ -70,7 +70,7 @@ function setYellowBrickImages() {
 }
 
 function setEmotionClassifyImages() {
-    document.getElementById("descriptiontitle").innerHTML = "EmotionClassify";
+    document.getElementById("descriptiontitle").innerHTML = "Emotion Classify";
     document.getElementById("imagecarousel").style.width = "60%";
     document.getElementById("img1").src = "img/happy.png";
     document.getElementById("img2").src = "img/surprise.png";
@@ -87,10 +87,10 @@ function setEmotionClassifyImages() {
 function setPlacesImages() {
     document.getElementById("descriptiontitle").innerHTML = "Places";
     document.getElementById("imagecarousel").style.width = "40%";
-    document.getElementById("img1").src = "img/appStore.png";
-    document.getElementById("img2").src = "img/map.png";
-    document.getElementById("img3").src = "img/modal.png";
-    document.getElementById("img4").src = "img/businessProfile.png";
+    document.getElementById("img1").src = "img/login.png";
+    document.getElementById("img2").src = "img/mapmarkers.png";
+    document.getElementById("img3").src = "img/marker.png";
+    document.getElementById("img4").src = "img/markermoved.png";
 
     document.getElementById("ybbutton").className = "btn-default";
     document.getElementById("ecbutton").className = "btn-default";
@@ -116,7 +116,7 @@ function setCityQuizImages() {
 
 function setInvasionImages() {
     document.getElementById("descriptiontitle").innerHTML = "Invasion";
-    document.getElementById("imagecarousel").style.width = "80%";
+    document.getElementById("imagecarousel").style.width = "60%";
     document.getElementById("img1").src = "img/happy.png";
     document.getElementById("img2").src = "img/surprise.png";
     document.getElementById("img3").src = "img/sad.png";
