@@ -102,10 +102,10 @@ function setPlacesImages() {
 function setCityQuizImages() {
     document.getElementById("descriptiontitle").innerHTML = "City Quiz";
     document.getElementById("imagecarousel").style.width = "40%";
-    document.getElementById("img1").src = "img/appStore.png";
-    document.getElementById("img2").src = "img/map.png";
-    document.getElementById("img3").src = "img/modal.png";
-    document.getElementById("img4").src = "img/businessProfile.png";
+    document.getElementById("img1").src = "img/home.png";
+    document.getElementById("img2").src = "img/question.png";
+    document.getElementById("img3").src = "img/results.png";
+    document.getElementById("img4").src = "img/leaderboard.png";
 
     document.getElementById("ybbutton").className = "btn-default";
     document.getElementById("ecbutton").className = "btn-default";
