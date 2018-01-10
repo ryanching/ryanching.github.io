@@ -100,7 +100,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/merock.png") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -142,17 +142,26 @@ a {
 
 .content-section {
   padding-top: 150px;
-  background-color: grey;
+  background-color: #5E5E5E;
   padding-bottom: 150px; }
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/ggbafar.png") no-repeat center center scroll;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+  .contact-section {
+    color: white;
+    background: url("../img/SanFranRocksBG.png") no-repeat center center scroll;
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
 
 #map {
   width: 100%;
