@@ -1,8 +1,6 @@
 (function($) {
   "use strict"; // Start of use strict
 
-
-
   // Enable Carousel Indicators
   $(".item").click(function(){
       $("#myCarousel").carousel(1);
@@ -30,12 +28,6 @@
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
-  });
-
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: 54
   });
 
   // Collapse Navbar
