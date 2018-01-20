@@ -22,8 +22,8 @@
     <link href="css/stylesheet.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
 
 
   </head>
@@ -66,7 +66,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h1 class="brand-heading">Ryan Ching</h1>
-              <p class="intro-text">(Aspiring) Software Engineer</p>
+              <p class="intro-text">Software Engineer</p>
               <p></p>
             </div>
           </div>
@@ -82,7 +82,7 @@
       <h3 class="text-center" style="color:white">(Click buttons below to see more about the project)</h3>
       <div style="width:95%; margin:auto; margin-bottom:40px; margin-top:10px; border-radius:20px; padding:5px">
         <span style="margin-left:10%">
-          <button id="ybbutton" class="btn btn-default active" onclick="setYellowBrickImages()">Yellow Brick</button>
+          <button id="ybbutton" class="btn-active" onclick="setYellowBrickImages()">Yellow Brick</button>
         </span>
         <span style="margin-left:10%">
           <button id="ecbutton" class="btn-default" onclick="setEmotionClassifyImages()">Emotion Classify</button>
@@ -99,7 +99,7 @@
       </div>
       <div style="width:50%; float:left; display: inline-block; margin-bottom:50px;" class="text-center">
           <h2 id="descriptiontitle" style="width:80%; margin-left:10%; margin-bottom:30px; color:white;">Yellow Brick</h3>
-          <p style="width:80%; margin-left:10%; color:white"> Yellow Brick is an iOS and Android mobile app that allows users to find deals and discounts at local restaurants and bars and earn loyalty rewards from said businesses. We used React Native to build the front end mobile applications for iOS and Android, and NodeJS to build the backend. We also use the MapBox API and AWS to show deals happening in the user's area in real time. Check out the <a href="https://github.com/ryanching/YellowBrick" target="_blank" style="text-decoration:underline; color:white">code on github!</a></p>
+          <p id="portfoliodescription" style="width:80%; margin-left:10%; color:white"> Yellow Brick is an iOS and Android mobile app that allows users to find deals and discounts at local restaurants and bars and earn loyalty rewards from said businesses. We used React Native to build the front end mobile applications for iOS and Android, and NodeJS to build the backend. We also use the MapBox API and AWS to show deals happening in the user's area in real time. Check out the <a href="https://github.com/ryanching/YellowBrick" target="_blank" style="text-decoration:underline; color:white">code on github!</a></p>
       </div>
 
       <div style="width:50%; float:right; display: inline-block; margin-bottom:50px; border-left: solid 2px white">
@@ -171,10 +171,13 @@
               <ul style="list-style: none; font-size:23px">
                 <li><h4 style="text-decoration: underline">Tools And Frameworks</h4></li>
                 <li>AngularJS</li>
+                <li>AWS</li>
+                <li>Node.js</li>
+                <li>Firebase</li>
                 <li>React/React Native</li>
                 <li>Bootstrap</li>
                 <li>Git/Github</li>
-                <li>D3.JS</li>
+                <li>D3.js</li>
                 <li>Xcode</li>
                 <li>Android Studio</li>
                 <li>Hadoop</li>
@@ -207,7 +210,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2 style="margin-top: -90px; color:white">Contact Me</h2>
-            <p style="margin:60px; ">Sending me an email works best (at <a href="mailto:RyanAChing@gmail.com" style="text-decoration:underline; color:white">RyanAChing@gmail.com</a>), but feel free to message me on LinkedIn, or check out my GitHub!</p>
+            <p style="margin:60px; ">Send me an email at <a href="mailto:RyanAChing@gmail.com" style="text-decoration:underline; color:white">RyanAChing@gmail.com</a>, or feel free to message me on LinkedIn and check out my GitHub!</p>
             <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
                 <a href="mailto:RyanAChing@gmail.com" class="btn btn-default btn-lg">

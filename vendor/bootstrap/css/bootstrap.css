@@ -1959,6 +1959,14 @@ select.form-control:focus::-ms-value {
   padding-left: 0;
 }
 
+.btn-active{
+    color: #5E5E5E;
+    border: 1px solid white;
+    border-radius: 0px;
+    outline: none;
+    background-color: white;
+}
+
 .form-control-sm, .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {

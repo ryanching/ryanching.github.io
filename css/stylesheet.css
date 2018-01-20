@@ -156,7 +156,7 @@ a {
 
   .contact-section {
     color: white;
-    background: url("../img/SanFranRocksBG.jpg") no-repeat center center scroll;
+    background: url("../img/merock.jpg") no-repeat center center scroll;
     background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -175,7 +175,6 @@ a {
     height: 350px; } }
 
 .btn {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -184,14 +183,17 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
-  background-color: transparent; }
+  color: white;
+  border: 1px solid white;
+  background-color: transparent }
   .btn-default:focus, .btn-default:hover {
-    color: black;
-    border: 1px solid #42DCA3;
+    color: #5E5E5E;
+    border: 1px solid white;
+    border-radius: 0px;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: white; }
+
+
 
 ul.banner-social-buttons {
   margin-top: 0; }
