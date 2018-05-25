@@ -147,8 +147,8 @@ a {
 
 .skills-section {
   color: white;
-  background: url("../img/SanFranRocksBG.jpg") no-repeat center center scroll;
-  background-color: white;
+  /* background: url("../img/SanFranRocksBG.jpg") no-repeat center center scroll; */
+  background-color: #333333;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -156,8 +156,8 @@ a {
 
   .contact-section {
     color: white;
-    background: url("../img/merock.jpg") no-repeat center center scroll;
-    background-color: white;
+    /* background: url("../img/merock.jpg") no-repeat center center scroll; */
+    background-color: #333333;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -55,6 +55,7 @@ function setYellowBrickImages() {
     document.getElementById("img3").src = "img/modal.png";
     document.getElementById("img4").src = "img/businessProfile.png";
 
+    document.getElementById("bcbutton").className = "btn-default";
     document.getElementById("ybbutton").className = "btn-active btn-lg";
     document.getElementById("ecbutton").className = "btn-default";
     document.getElementById("plbutton").className = "btn-default";
@@ -74,10 +75,30 @@ function setEmotionClassifyImages() {
     document.getElementById("img4").src = "img/anger.png";
 
     document.getElementById("ybbutton").className = "btn-default";
+    document.getElementById("bcbutton").className = "btn-default";
     document.getElementById("ecbutton").className = "btn-active btn-lg";
     document.getElementById("plbutton").className = "btn-default";
     document.getElementById("cqbutton").className = "btn-default";
     document.getElementById("inbutton").className = "btn-default";
+}
+
+function setBrainChainImages() {
+    document.getElementById("descriptiontitle").innerHTML = "Brain Chain";
+    document.getElementById("portfoliodescription").innerHTML = "Brain Chain is a project I built for my Modern Web Apps class. It give students the ability to connect with other students to study and work on homework together. Users can add their classes to their profile, create study sessions, and join study sessions. It also gives the users the option to search for sessions by class name, while autofiltering the session results as the user types the class name. It uses a Node.js backend with a sqlite database, and uses HTML/CSS, JQuery, and Bootstrap on the front end. Check out the <a href='https://github.com/ryanching/BrainChain' target='_blank' style='text-decoration:underline; color:white'>code on github!</a>";
+
+    document.getElementById("imagecarousel").style.width = "40%";
+    document.getElementById("img1").src = "img/brainchainhome.png";
+    document.getElementById("img2").src = "img/brainchainmodal.png";
+    document.getElementById("img3").src = "img/brainchainprofile.png";
+    document.getElementById("img4").src = "img/brainchainlogin.png";
+
+    document.getElementById("ybbutton").className = "btn-default";
+    document.getElementById("bcbutton").className = "btn-active btn-lg";
+    document.getElementById("ecbutton").className = "btn-default";
+    document.getElementById("plbutton").className = "btn-default";
+    document.getElementById("cqbutton").className = "btn-default";
+    document.getElementById("inbutton").className = "btn-default";
+
 }
 
 function setPlacesImages() {
@@ -91,6 +112,7 @@ function setPlacesImages() {
     document.getElementById("img4").src = "img/markermoved.png";
 
     document.getElementById("ybbutton").className = "btn-default";
+    document.getElementById("bcbutton").className = "btn-default";
     document.getElementById("ecbutton").className = "btn-default";
     document.getElementById("plbutton").className = "btn-active btn-lg";
     document.getElementById("cqbutton").className = "btn-default";
@@ -108,6 +130,7 @@ function setCityQuizImages() {
     document.getElementById("img4").src = "img/leaderboard.png";
 
     document.getElementById("ybbutton").className = "btn-default";
+    document.getElementById("bcbutton").className = "btn-default";
     document.getElementById("ecbutton").className = "btn-default";
     document.getElementById("plbutton").className = "btn-default";
     document.getElementById("cqbutton").className = "btn-active btn-lg";
@@ -125,6 +148,7 @@ function setInvasionImages() {
     document.getElementById("img4").src = "img/gameOver.png";
 
     document.getElementById("ybbutton").className = "btn-default";
+    document.getElementById("bcbutton").className = "btn-default";
     document.getElementById("ecbutton").className = "btn-default";
     document.getElementById("plbutton").className = "btn-default";
     document.getElementById("cqbutton").className = "btn-default";

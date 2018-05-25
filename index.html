@@ -50,11 +50,11 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="masthead">
-      <div id="about" class="intro-body">
+    <header class="masthead" >
+      <div id="about" class="intro-body" style="border-bottom:2px solid white;">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto" style="background-color:rgba(0,0,0,0.5); border-radius:20px; padding:35px">
+            <div class="col-lg-8 mx-auto" style="background-color:rgba(0,0,0,0.5); border-radius:20px; padding:35px;">
               <!-- <img src="img/profilecircle.png" style="margin-bottom: -115px; width:45%"></img> -->
               <h1 class="brand-heading">Ryan Ching</h1>
               <p style="margin-top:50px">Hello, and welcome to my website! I created this site to tell you a little bit about myself, display some of my previous projects and resume, and to make it easier to contact me. I graduated from the University of Pittsburgh with a Bachelor's degree in computer science, and am continuing my education at Brown University by pursuing a Master's degree in computer science with a concentration in machine learning. I have been coding since my early days of highschool, and am continually drawn to the field of computer science by the unique combination of creativity and logical thinking required to write clean, efficient code. Thank you for taking the time to check out my website! </p>
@@ -66,28 +66,31 @@
 
 
     <!-- Portfolio Section linear-gradient(#010101, #5E5E5E) -->
-    <section id="portfolio" style="background-color: #46494f;  display: inline-block;">
+    <section id="portfolio" style="background-color: #46494f;  display: inline-block; border-bottom:2px solid white;">
 
       <h1 class="text-center" style="padding-top:30px; color:white">Here are some things I've made: </h1>
       <h3 class="text-center" style="color:white; margin-top:20px; margin-bottom:50px;">(Click buttons below to see more about the project)</h3>
-      <div style="width:93%; margin:auto; margin-bottom:20px; padding-top:20px; border-top:2px solid white;">
+      <div style="width:93%; margin:auto; margin-bottom:10px; padding:20px; border:2px solid white;">
         <span style="margin-left:10%">
           <button id="ybbutton" class="btn-active btn-lg" onclick="setYellowBrickImages()">Yellow Brick</button>
         </span>
-        <span style="margin-left:10%">
+        <span style="margin-left:7%">
           <button id="ecbutton" class="btn-default" onclick="setEmotionClassifyImages()">Emotion Classify</button>
         </span>
-        <span style="margin-left:10%">
+        <span style="margin-left:7%">
+          <button id="bcbutton" class="btn-default" onclick="setBrainChainImages()">Brain Chain</button>
+        </span>
+        <span style="margin-left:7%">
           <button id="plbutton" class="btn-default" onclick="setPlacesImages()">Places</button>
         </span>
-        <span style="margin-left:10%">
+        <span style="margin-left:7%">
           <button id="cqbutton" class="btn-default" onclick="setCityQuizImages()">City Quiz</button>
         </span>
-        <span style="margin-left:10%">
+        <span style="margin-left:7%">
           <button id="inbutton" class="btn-default" onclick="setInvasionImages()">Invasion</button>
         </span>
       </div>
-      <div style="width:90%; margin-left:5%">
+      <div style="width:93%; margin: auto;">
           <div style="width:50%; float:left; display: inline-block; margin-bottom:50px; border-top: solid 2px white; padding-top:30px" class="text-center">
               <h2 id="descriptiontitle" style="width:80%; margin-left:10%; margin-bottom:30px; color:white;">Yellow Brick</h2>
               <p id="portfoliodescription" style="width:80%; margin-left:10%; color:white"> Yellow Brick is an iOS and Android mobile app that allows users to find deals and discounts at local restaurants and bars and earn loyalty rewards from said businesses. We used React Native to build the front end mobile applications for iOS and Android, and NodeJS to build the backend. We also use the MapBox API and AWS to show deals happening in the user's area in real time. Check out the <a href="https://github.com/ryanching/YellowBrick" target="_blank" style="text-decoration:underline; color:white">code on github!</a></p>
@@ -135,7 +138,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills-section content-section text-center">
+    <section id="skills" class="skills-section content-section text-center" style="border-bottom:2px solid white;">
       <div >
         <div class="row" style="width:100%;">
           <div class="col-lg-8 mx-auto" style="background-color:rgba(0,0,0,0.5); border-radius:20px;">
@@ -177,14 +180,14 @@
     </section>
 
     <!-- Resume Section -->
-    <section id="resume" class="content-section text-center" style="background-color:#46494f">
+    <section id="resume" class="content-section text-center" style="background-color:#46494f; border-bottom:2px solid white;">
       <div class="container">
         <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 style="margin-top: -100px; color:white">Link to my resume (pdf): </h2>
           <p style="color:white; margin-top: 40px;">If you want to learn more about my work experience, education, and related coursework, check out my resume!</p>
           <div style="margin-top:80px;">
-            <a href="img/ResumeJanuary2018.pdf" class="btn-default btn-lg" target="_blank">Resume</a>
+            <a href="img/RyanChingResume.pdf" class="btn-default btn-lg" target="_blank">Resume</a>
           </div>
         </div>
         </div>
