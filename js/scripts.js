@@ -84,7 +84,7 @@ function setEmotionClassifyImages() {
 
 function setBrainChainImages() {
     document.getElementById("descriptiontitle").innerHTML = "Brain Chain";
-    document.getElementById("portfoliodescription").innerHTML = "Brain Chain is a project I built for my Modern Web Apps class. It give students the ability to connect with other students to study and work on homework together. Users can add their classes to their profile, create study sessions, and join study sessions. It also gives the users the option to search for sessions by class name, while autofiltering the session results as the user types the class name. It uses a Node.js backend with a sqlite database, and uses HTML/CSS, JQuery, and Bootstrap on the front end. Check out the <a href='https://github.com/ryanching/BrainChain' target='_blank' style='text-decoration:underline; color:white'>code on github!</a>";
+    document.getElementById("portfoliodescription").innerHTML = "Brain Chain is a project I built for my Modern Web Apps class. It give students the ability to connect with other students to study and work on homework together. Users can add their classes to their profile, create study sessions, and join study sessions. It also gives the users the option to search for sessions by class name, while autofiltering the session results as the user types the class name. It uses a Node.js backend with a sqlite database, and uses HTML/CSS, JQuery, and Bootstrap on the front end. Check out the <a href='https://github.com/ryanching/Brain-Chain' target='_blank' style='text-decoration:underline; color:white'>code on github!</a>";
 
     document.getElementById("imagecarousel").style.width = "40%";
     document.getElementById("img1").src = "img/brainchainhome.png";
